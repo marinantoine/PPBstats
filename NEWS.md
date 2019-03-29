@@ -8,7 +8,7 @@
         - format_data
         - function in the workflow
         - Rd + book
-- format_data_PPBstats.data_network: take into accuont when there are not lat and long columns
+- format_data_PPBstats.data_network: take into account when there are not lat and long columns
 - pmap in common_functions : use stamen instead of google on map, cf #90
 - implement spatial analysis, cf #20 
 
@@ -138,7 +138,7 @@
 - plot.mean_comparisons_model_1.R
     - improve display of score : cf #61
 - plot.parameter_groups.R:
-    - model 2 ACP cluster : put in blod or color a given ind, cf #76
+    - model 2 ACP cluster : put in bold or color a given ind, cf #76
 - design_experiment.R
     - no location in title for IBD and in the data frame, cf #39
 - plot.[...].R
@@ -150,7 +150,7 @@
 - reshape_data_split_x_axis_in_col.R in common_function
     - debug when NA in row
 - mean_comparisons.check_model_GxE.R & mean_comparisons.check_model_spatial.R
-    - update code regarding changes in agricolae package
+    - update code regarding changes in 'agricolae' package
 - rename functions related to model (cf #54)
     - model_1 -> model_bh_intra_location
     - model_2 -> model_bh_GxE
@@ -259,7 +259,7 @@ following change of model name:
 # **PPBstats 0.18** 
 ### update vignette
 - cf #36 : add decision tree + update
-- reorganise introduction of agro section
+- reorganise introduction of 'agro' section
 
 # **PPBstats 0.17** 
 ### add new functions
@@ -274,7 +274,7 @@ following change of model name:
 - ggplot_mean_comparisons_model_1.R : little debug
 
 ### update vignette
-- changes in text and exemple regarding functions udaptes
+- changes in text and exemple regarding functions updaptes
 
 
 # **PPBstats 0.16** 
@@ -297,7 +297,7 @@ following change of model name:
 ### update vignette
 - regarding changes in R code
 - spelling 
-- contributions and aknowledgement
+- contributions and acknowledgement
 
 
 # **PPBstats 0.14** 

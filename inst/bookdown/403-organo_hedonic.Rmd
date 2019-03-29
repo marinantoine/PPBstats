@@ -241,7 +241,7 @@ p_out_mean_comparisons_hedonic = plot(out_mean_comparisons_hedonic)
 
 `p_out_mean_comparisons_hedonic` is a list of on elements with barplots :
 
-For each element of the list, there are as many graph as needed with `nb_parameters_per_plot` parameters per graph.
+For each element of the list, there are as many graph as needed according to `nb_parameters_per_plot` option for the `plot` function.
 Letters are displayed on each bar. 
 Parameters that do not share the same letters are different regarding type I error (alpha) and alpha correction. 
 The error I (alpha) and the alpha correction are displayed in the title. 

@@ -364,7 +364,7 @@ For `plot_type = "interaction"` and `plot_type = "score"`, it is displayed under
 
 The ggplot are done for each element of the list coming from `mean_comparisons`.
 For each plot_type, it is a list of three lists each with as many elements as environments. 
-For each element of the list, there are as many graphs as needed with `nb_parameters_per_plot` parameters per graph.
+For each element of the list, there are as many graphs as needed according to `nb_parameters_per_plot` option for the `plot` function.
 
 ###### barplot
 
@@ -419,7 +419,7 @@ The ggplot are done for each element of the list coming rom `mean_comparisons`.
 
 For each plot_type, it is a list of three elements being lists with as many elements as environment. 
 
-For each element of the list, there are as many graph as needed with `nb_parameters_per_plot` parameters per graph.
+For each element of the list, there are as many graph as needed according to `nb_parameters_per_plot` option for the `plot` function.
 
 
 ```{r}
