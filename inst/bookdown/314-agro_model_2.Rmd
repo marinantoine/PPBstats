@@ -339,7 +339,7 @@ load("./data_PPBstats/model_bh_GxE_theta.RData")
 
 To see the output, use `plot`.
 
-There are as many graph as needed with `nb_parameters_per_plot` parameters per graph.
+There are as many graph as needed according to `nb_parameters_per_plot` option for the `plot` function.
 
 For `plot_type = "barplot"`,
 Letters are displayed on each bar. Parameters that do not share the same letters are different regarding type I error (alpha) and alpha correction. 
