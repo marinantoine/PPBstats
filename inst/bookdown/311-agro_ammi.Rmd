@@ -182,10 +182,10 @@ p_out_check_ammi$variability_repartition
 ```
 
 - `variance_intra_germplasm` : repartition of the residuals for each germplasm (see Details for more information)
-With the hypothesis than the micro-environmental variation is equaly distributed on all the individuals (i.e. all the plants), the distribution of each germplasm represent the intra-germplasm variance.
-This has to been seen with caution:
-    - If germplasm have no intra-germplasm variance (i.e. pure line or hybrides) then the distribution of each germplasm represent only the micro-environmental variation.
-    - If germplasm have intra-germplasm variance (i.e. population such as landraces for example) then the distribution of each germplasm represent the micro-environmental variation plus the intra-germplasm variance.
+With the hypothesis that the micro-environmental variation is equally distributed over all the individuals (i.e. all the plants), the distribution of each germplasm represents the intra-germplasm variance.
+This has to be taken with caution:
+    - If germplasm have no intra-germplasm variance (i.e. pure line or hybrides) then the distribution of each germplasm represents only the micro-environmental variation.
+    - If germplasm have intra-germplasm variance (i.e. populations or landraces) then the distribution of each germplasm represents the micro-environmental variation plus the intra-germplasm variance.
 
 
 ```{r}
